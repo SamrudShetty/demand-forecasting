@@ -19,23 +19,14 @@ This repository includes the complete reproducible workflow.
 .
 ├── Demand Forecast.ipynb             
 ├── requirements.txt                  
-├── README.md                        
-│
-├── data/
-│   └── demand_forecasting_dataset.csv  
-│
+├── README.md                         
 ├── plots/                        
-│   ├── actual_vs_rf_predicted.png
-│   ├── actual_vs_xgb_predicted.png
-│   ├── feature_importances_rf.png
-│   ├── forecast_30_day_comparison.png
-│   ├── historical_plus_30day_forecast.png
-└── results
-    ├── results_with_rf_predictions.csv
-    ├── forecast_30_rf.csv
-    ├── forecast_30_xgb.csv
-    ├── forecast_365_rf.csv
-    └── forecast_365_xgb.csv
+   ├── actual_vs_rf_predicted.png
+   ├── actual_vs_xgb_predicted.png
+   ├── feature_importances_rf.png
+   ├── forecast_30_day_comparison.png
+   ├── historical_plus_30day_forecast.png
+
 
 
 
@@ -181,4 +172,5 @@ Multiple ML models
 Multi-step forecasting
 Visualization and interpretability
 Exportable outputs
+
 The notebook is structured for readability, reproducibility, and clear end-to-end execution.
