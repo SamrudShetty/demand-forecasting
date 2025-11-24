@@ -59,7 +59,7 @@ Removed initial rows created by rolling windows.
 
 
 🤖 Models Used
-Random Forest Regressor
+Random Forest Regressor 
 300 trees
 Parallel training (n_jobs=-1)
 Low variance, robust baseline model
@@ -78,8 +78,8 @@ Model	         MAE	RMSE
 Random Forest	49.23	56.62
 XGBoost	        50.34	58.85
 
-✔ Random Forest slightly outperformed XGBoost
-✔ Both models performed similarly and captured underlying demand patterns
+Random Forest slightly outperformed XGBoost
+Both models performed similarly and captured underlying demand patterns
 
 
 
@@ -174,3 +174,4 @@ Visualization and interpretability
 Exportable outputs
 
 The notebook is structured for readability, reproducibility, and clear end-to-end execution.
+
