@@ -87,7 +87,7 @@ Actual vs XGBoost Predicted
 The XGBoost model:
 Follows long-term structure
 Smooths over high-frequency noise
-Cannot replicate extreme fluctuations (normal behavior)
+Cannot replicate extreme fluctuations 
 This reflects realistic business situations:
 short-term noise is difficult to predict, but underlying demand trend is captured.
 
@@ -147,7 +147,7 @@ cd demand-forecasting
 
 
 2. Install dependencies
-pip install -r requirements.txt
+pip install requirements.txt
 
 
 3. Launch Jupyter Notebook
@@ -174,4 +174,5 @@ Visualization and interpretability
 Exportable outputs
 
 The notebook is structured for readability, reproducibility, and clear end-to-end execution.
+
 
